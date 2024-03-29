@@ -9,20 +9,21 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    
+    <div>
       <Router>
         <Routes>
           <Route path="/Emission" element={<Emission/>}/>
           <Route path="/" element={<Report />} />
-          
+      
 
         </Routes>
 
       </Router>
-      
 
 
+<Emission/>
    
-
+</div>
   );
 }
+
