@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Router>
         <Routes>
-          <Route path="/Emission" element={<Emission/>}/>
+         
           <Route path="/" element={<Report />} />
       
 
